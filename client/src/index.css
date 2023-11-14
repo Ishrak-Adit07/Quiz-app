@@ -11,3 +11,101 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.quizTitle{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quizPage{
+  background: linear-gradient(120deg, #EBEBEB, #08345E);
+  padding: 40px;
+  padding-bottom: 60px;
+}
+
+.cardDesign{
+  background: linear-gradient(#db6c6c, #9198e5);
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+.centerAlign{
+  display: block;
+  margin: 40px auto 0px;
+}
+
+.whiteText{
+  background-color: transparent;
+  color: white;
+}
+
+.card-title{
+  background-color: rgb(173, 216, 230, .3);
+  color: white;
+}
+
+.card-question{
+  background-color: rgb(173, 216, 230, .5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card-options{
+  background-color: rgb(173, 216, 230, .5);
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.card-img-top{
+  opacity: .7;
+  border-radius: 10px;
+}
+
+.optionbtn{
+  width: 95%;
+  background-color: #BCD8C1;
+  opacity: .8;
+  color: black;
+  padding-left: 10px;
+  margin: 5px auto 5px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.optionbtn:hover{
+  width: 95%;
+  background-color: #3e4740;
+  opacity: .6;
+  color: white;
+  padding-left: 10px;
+  margin: 5px auto 5px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.card-button{
+  width: 90px;
+  background-color: #F45B69;
+  color: #EBEBEB;
+  border-radius: 10px;
+  margin: 20px 10px 10px 20px;
+}
+
+.card-button:hover{
+  width: 100px;
+  background-color: #F45B69;
+  color: #EBEBEB;
+  border-radius: 10px;
+  margin: 20px 10px 10px 20px;
+}
+
+.leftAlign{
+  text-align: left;
+}
+
+.rightAlign{
+  text-align: right;
+}
+

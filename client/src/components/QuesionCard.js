@@ -3,24 +3,13 @@ import React, {Fragment, useEffect, useState} from 'react';
 export default function QuestionCard() {  
 
   const [Nquestions, setNQuestions] = useState([{}]);
-  const [question, setQuestion] = useState("Question: What is Ginny Weasley's Patronus?");
-  const [display1, setDisplay1] = useState("A horse");
-  const [display2, setDisplay2] = useState("A rabbit");
-  const [display3, setDisplay3] = useState("A stag");
-  const [display4, setDisplay4] = useState("An otter");
 
   const [countOfQuestion, setCountOfQuestion] = useState(0);
-  const [score, setScore] = useState(0);
+  //const [score, setScore] = useState(0);
   
   //Set current Values of Question and Options
   const setCurrentValues = (cnt) =>{
-    setCountOfQuestion(cnt);
-
-    setQuestion(Nquestions[countOfQuestion].question);
-    setDisplay1(Nquestions[countOfQuestion].options[0].value);
-    setDisplay2(Nquestions[countOfQuestion].options[1].value);
-    setDisplay3(Nquestions[countOfQuestion].options[2].value);
-    setDisplay4(Nquestions[countOfQuestion].options[3].value);    
+    setCountOfQuestion(cnt);  
   }
 
   //Get 5 new questions at first
