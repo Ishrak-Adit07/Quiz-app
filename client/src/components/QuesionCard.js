@@ -46,8 +46,7 @@ export default function QuestionCard() {
             <div class="card img-fluid centerAlign" style={{width:600}}>
                     <img class="card-img-top" src="./images/GreatHall.png" alt="Card" />
                     <div class="card-img-overlay" text='white'>
-                        <h4 class="card-title"></h4>
-
+                      
                         <p class='card-question'>
                             {Nquestions[countOfQuestion].question}
                         </p>
